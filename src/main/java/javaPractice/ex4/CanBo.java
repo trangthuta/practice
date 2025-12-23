@@ -66,6 +66,7 @@ public class CanBo {
             danhSachNhanVien.add(cb);
 
             System.out.println(">> Da them can bo vao danh sach!");
+            System.out.println(danhSachNhanVien.size());
 
             // ✅ hỏi nhập tiếp
             System.out.print("Ban co muon nhap tiep? (y/n): ");

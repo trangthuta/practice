@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd7d1716-51b2-479d-a667-d7eeea8d5f1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/CanBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/CongNhan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/KiSu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/NhanVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/QLCB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex5/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex5/TestMyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex5/ex3/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex5/ex3/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex5/ex3/ExceptionHierarchyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaPractice/ex4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/CanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/ex4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex4/ex4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaPractice/ex5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaPractice/ex5/ex1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,46 +39,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CanBo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QLCB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex3 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex3 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex3 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex4 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex4 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex4 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex4 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.reEx3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/hocLaiKhoaJava/practice&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;G:/hocLaiKhoaJava/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CanBo.executor": "Run",
+    "Application.ExceptionHierarchyTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.QLCB.executor": "Run",
+    "Application.TestMyException.executor": "Run",
+    "Application.ex1.executor": "Run",
+    "Application.ex2 (1).executor": "Run",
+    "Application.ex2.executor": "Run",
+    "Application.ex3 (1).executor": "Run",
+    "Application.ex3 (2).executor": "Run",
+    "Application.ex3 (3).executor": "Run",
+    "Application.ex3 (4).executor": "Run",
+    "Application.ex3.executor": "Run",
+    "Application.ex4 (1).executor": "Run",
+    "Application.ex4 (2).executor": "Run",
+    "Application.ex4 (3).executor": "Run",
+    "Application.ex4 (4).executor": "Run",
+    "Application.ex4.executor": "Run",
+    "Application.reEx3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/hocLaiKhoaJava/practice",
+    "onboarding.tips.debug.path": "G:/hocLaiKhoaJava/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="javaPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QLCB">
-    <configuration name="CanBo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaPractice.ex4.CanBo" />
+  <component name="RunManager" selected="Application.ExceptionHierarchyTest">
+    <configuration name="ExceptionHierarchyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHierarchyTest" />
       <module name="hocLaiKhoaJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaPractice.ex4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaPractice.ex4" />
+    <configuration name="TestMyException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaPractice.ex5.TestMyException" />
       <module name="hocLaiKhoaJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaPractice.*" />
+          <option name="PATTERN" value="javaPractice.ex5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,25 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex4 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaPractice.ex4" />
+    <configuration name="ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaPractice.ex5.ex1" />
       <module name="hocLaiKhoaJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex4 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaPractice.ex4" />
-      <module name="hocLaiKhoaJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaPractice.*" />
+          <option name="PATTERN" value="javaPractice.ex5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,10 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionHierarchyTest" />
+        <item itemvalue="Application.TestMyException" />
+        <item itemvalue="Application.ex1" />
         <item itemvalue="Application.QLCB" />
-        <item itemvalue="Application.CanBo" />
         <item itemvalue="Application.ex4" />
-        <item itemvalue="Application.ex4 (3)" />
       </list>
     </recent_temporary>
   </component>
