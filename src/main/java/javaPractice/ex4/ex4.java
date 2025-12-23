@@ -15,9 +15,22 @@ public class ex4 {
             }
         }
     }
-    private static class Parent{
+    private static class subParent extends Parent{
+        public static void message1() {
+            System.out.println("This is first subclass 1");
+        }
+    }
+    private static class subParent2 extends Parent{
+        public static void message2() {
+            System.out.println("This is first subclass 2");
+        }
+    }
+    private static abstract class Parent{
         public static void message() {
-
+        subParent subParent = new subParent() ;
+        subParent2 subParent2 = new subParent2() ;
+        subParent.message1();
+        subParent2.message2();
         }
     }
 
@@ -27,9 +40,6 @@ public class ex4 {
         scanner.nextLine();
         s1.name = scanner.nextLine();
         s1.printName();
-    }
-    public static void bai2(Scanner scanner) {
-
     }
 
     public static void main(String[] args) {
@@ -43,7 +53,7 @@ public class ex4 {
                     bai1(scanner);
                     break;
                 case 2:
-                    bai2(scanner);
+                    Parent.message();
                     break;
                 case 0:
                     System.out.println("Da thoat chuong trinh !");
