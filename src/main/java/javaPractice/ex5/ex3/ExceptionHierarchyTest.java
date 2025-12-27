@@ -1,3 +1,5 @@
+package javaPractice.ex5.ex3;
+
 // ===== 1️⃣ Tạo hierarchy 3 cấp Exception =====
 class Level1Exception extends Exception {
     public Level1Exception(String msg) {
